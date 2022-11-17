@@ -7,3 +7,12 @@
 .h-v1-completed {
   background-color: hsl(var(--c), 100%, 40%) !important;
 }
+
+/* v3 */
+.h-v3-completed {
+  background-color: hsl(var(--c), 100%, 40%) !important;
+}
+
+.h-v3-current {
+  background-color: hsl(var(--c), 100%, 20%) !important;
+}

@@ -1,0 +1,44 @@
+.v3 {
+  --c: var(--v3);
+  background-color: hsl(var(--c), 100%, 97%);
+}
+
+.v3 > .steps {
+  position: relative;
+  display: flex;
+  width: 250px;
+  justify-content: space-between;
+}
+
+.v3 > .steps .line {
+  width: 250px;
+  height: 4px;
+  border-radius: 1000px;
+  background-color: hsl(var(--c), 100%, 83%);
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 0;
+}
+
+.v3 > .steps .progress {
+  width: var(--p);
+  height: 100%;
+  border-radius: inherit;
+  background-color: hsl(var(--c), 100%, 30%);
+}
+
+.v3 > .steps .step {
+  width: 25px;
+  aspect-ratio: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(var(--c), 40%, 70%);
+  z-index: 5;
+  color: hsl(var(--c), 100%, 97%);
+  border-radius: 1000px;
+  font-size: 1.4ch;
+  font-weight: 700;
+}

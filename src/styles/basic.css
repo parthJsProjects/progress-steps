@@ -1,8 +1,17 @@
 :root {
   --v1: 13;
   --v2: 120;
+  --v3: 190;
 }
 
 body {
   font-family: 'Roboto', sans-serif;
+}
+
+hr {
+  height: 100px;
+}
+
+* {
+  /* outline: 1px solid red; */
 }
