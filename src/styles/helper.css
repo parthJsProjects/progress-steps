@@ -1,0 +1,9 @@
+.h-active {
+  background-color: rgb(85, 100, 255) !important;
+  color: white !important;
+}
+
+/* v1 */
+.h-v1-completed {
+  background-color: hsl(var(--c), 100%, 40%) !important;
+}

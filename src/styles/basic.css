@@ -1,0 +1,8 @@
+:root {
+  --v1: 13;
+  --v2: 120;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}

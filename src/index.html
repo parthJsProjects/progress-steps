@@ -5,8 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Progress Steps Indicator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles/main.css" />
     <script type="module" src="scripts/main.ts"></script>
   </head>
-  <body></body>
+  <body>
+    <section class="steps-group">
+      <div class="steps-box v1">
+        <div class="steps">
+          <div class="plate h-v1-completed"></div>
+          <div class="plate"></div>
+          <div class="plate"></div>
+          <div class="plate"></div>
+        </div>
+      </div>
+      <div class="steps-box v2">
+        <div class="steps">
+          <div
+            id="v2-progress"
+            class="progress"
+            data-p="25"
+            style="--p: 25%"
+          ></div>
+        </div>
+      </div>
+    </section>
+    <section class="steps-controller-box">
+      <button id="prev" class="prev">Prev</button>
+      <button id="next" class="next h-active">Next</button>
+    </section>
+  </body>
 </html>
