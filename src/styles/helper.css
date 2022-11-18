@@ -16,3 +16,8 @@
 .h-v3-current {
   background-color: hsl(var(--c), 100%, 20%) !important;
 }
+
+/* v4 */
+.h-v4-visible {
+  opacity: 1 !important;
+}
